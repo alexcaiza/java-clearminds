@@ -12,7 +12,7 @@ public abstract class Comible {
 	
 	public abstract void comer();
 	
-	public void terminar() {		
+	public void terminar() {	
 	}
 
 }
