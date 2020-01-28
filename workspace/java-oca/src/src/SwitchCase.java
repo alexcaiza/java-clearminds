@@ -1,4 +1,4 @@
-package src.cert;
+package src;
 
 public class SwitchCase {
 
