@@ -1,8 +1,8 @@
-package cert;
+package src.cert;
 
 import java.util.ArrayList;
 
-public class TestArrayListMetodos1 {
+public class ArrayListMetodos1 {
 
     /**
      * @param args

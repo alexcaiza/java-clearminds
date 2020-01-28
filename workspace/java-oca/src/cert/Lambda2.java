@@ -1,10 +1,10 @@
-package cert;
+package src.cert;
 
 interface Climb {
 	boolean isTooHigh(int height, int limit);
 }
 
-public class TestLambda2 {
+public class Lambda2 {
 	
 	public static void main(String[] args) {
         

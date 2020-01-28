@@ -1,6 +1,6 @@
-package cert;
+package src.cert;
 
-public class TestRowLoopContinue {
+public class RowLoopContinue {
 
 	public static void main(String[] args) {
 

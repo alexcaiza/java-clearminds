@@ -1,7 +1,7 @@
-package cert;
+package src.cert;
 
 
-public class TestArrregloListSize {
+public class ArrregloListSize {
 
     public static void main(String[] args) {
         

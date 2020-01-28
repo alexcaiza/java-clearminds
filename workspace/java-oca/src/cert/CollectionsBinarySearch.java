@@ -1,10 +1,10 @@
-package cert;
+package src.cert;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class TestCollectionsBinarySearch {
+public class CollectionsBinarySearch {
 
     /**
      * @param args

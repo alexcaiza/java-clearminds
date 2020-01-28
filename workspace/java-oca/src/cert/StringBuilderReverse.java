@@ -1,8 +1,8 @@
-package cert;
+package src.cert;
 
 
 
-public class TestStringBuilderReverse {
+public class StringBuilderReverse {
 	
     /**
      * @param args

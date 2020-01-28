@@ -1,6 +1,6 @@
-package cert;
+package src.cert;
 
-public class TestHerenciaSnakeHandler {
+public class HerenciaSnakeHandler {
     
     private Snake snake;
     
@@ -10,10 +10,10 @@ public class TestHerenciaSnakeHandler {
 
     public static void main(String[] args) {
         
-        new TestHerenciaSnakeHandler().setSnake(null);
+        new HerenciaSnakeHandler().setSnake(null);
         //new TestHerenciaSnakeHandler().setSnake(new GardenSnake());
-        new TestHerenciaSnakeHandler().setSnake(new Snake());
-        new TestHerenciaSnakeHandler().setSnake(new Cobra());
+        new HerenciaSnakeHandler().setSnake(new Snake());
+        new HerenciaSnakeHandler().setSnake(new Cobra());
         //new TestHerenciaSnakeHandler().setSnake(new Object());
 
     }

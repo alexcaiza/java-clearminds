@@ -1,6 +1,6 @@
-package cert;
+package src.cert;
 
-public class TestWhile2 {
+public class While2 {
 
     /**
      * @param args

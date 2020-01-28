@@ -1,8 +1,8 @@
-package cert;
+package src.cert;
 
 import java.util.Arrays;
 
-public class TestArraysBinarySearch {
+public class ArraysBinarySearch {
 
     /**
      * @param args

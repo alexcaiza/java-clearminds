@@ -1,9 +1,9 @@
-package cert;
+package src.cert;
 
 import java.time.LocalDate;
 import java.time.Month;
 
-public class TestLocalDate_DayOfMonth {
+public class LocalDate_DayOfMonth {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub

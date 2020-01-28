@@ -1,4 +1,4 @@
-package cert;
+package src.cert;
 
 class Order {
     static String result = "";
@@ -9,7 +9,7 @@ class Order {
 }
 
 
-public class TestStatic2 {
+public class Static2 {
 
     public static void main(String[] args) {
         

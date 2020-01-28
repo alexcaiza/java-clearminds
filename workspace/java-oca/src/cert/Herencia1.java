@@ -1,6 +1,6 @@
-package cert;
+package src.cert;
 
-public class TestHerencia1 {
+public class Herencia1 {
     public static void main(String[] args) {
     	
     }

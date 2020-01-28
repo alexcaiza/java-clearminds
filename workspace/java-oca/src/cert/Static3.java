@@ -1,4 +1,4 @@
-package cert;
+package src.cert;
 
 class Order31 {
     
@@ -23,7 +23,7 @@ class Order31 {
 }
 
 
-public class TestStatic3 {
+public class Static3 {
 	
 	
 

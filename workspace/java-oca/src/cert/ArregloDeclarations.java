@@ -1,8 +1,8 @@
-package cert;
+package src.cert;
 
 import java.util.Date;
 
-public class TestArregloDeclarations {
+public class ArregloDeclarations {
 
     public static void main(String[] args) {
         

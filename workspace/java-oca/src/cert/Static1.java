@@ -1,4 +1,4 @@
-package cert;
+package src.cert;
 
 class Order3 {
     final String value1 = "1";
@@ -18,7 +18,7 @@ class Order3 {
     }
 }
 
-public class TestStatic1 {
+public class Static1 {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub

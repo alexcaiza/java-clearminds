@@ -1,9 +1,9 @@
-package cert;
+package src.cert;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestLambdaRemoveIf {
+public class LambdaRemoveIf {
 
     public static void main(String[] args) {
         

@@ -1,11 +1,11 @@
-package cert;
+package src.cert;
 
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestListString {
+public class ListString {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub

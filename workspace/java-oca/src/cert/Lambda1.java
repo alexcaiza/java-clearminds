@@ -1,10 +1,10 @@
-package cert;
+package src.cert;
 
 interface Secret {
 	String magic(double d);
 }
 
-public class TestLambda1 implements Secret {
+public class Lambda1 implements Secret {
 	
 	public String magic(double d) {
 		return "Poof";
@@ -12,7 +12,7 @@ public class TestLambda1 implements Secret {
 
     public static void main(String[] args) {
         
-    	TestLambda1 t = new TestLambda1();
+    	Lambda1 t = new Lambda1();
     	
     	System.out.println(t.magic(10));
     	

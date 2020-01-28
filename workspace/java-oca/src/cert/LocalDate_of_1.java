@@ -1,11 +1,11 @@
-package cert;
+package src.cert;
 
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
-public class TestLocalDate_of_1 {
+public class LocalDate_of_1 {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub

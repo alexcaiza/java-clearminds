@@ -1,6 +1,6 @@
-package cert;
+package src.cert;
 
-public class TestSwitchCase {
+public class SwitchCase {
 
     /**
      * @param args

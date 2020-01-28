@@ -1,10 +1,10 @@
-package cert;
+package src.cert;
 
 class StringBuilders {
 	
 }
 
-public class TestStringBuilders {
+public class StringBuilders {
 	
 	public static StringBuilder work(StringBuilder a, StringBuilder b) {
 		a = new StringBuilder("a");
