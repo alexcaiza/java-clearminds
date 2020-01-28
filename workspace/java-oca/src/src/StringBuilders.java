@@ -1,9 +1,5 @@
 package src;
 
-class StringBuilders {
-	
-}
-
 public class StringBuilders {
 	
 	public static StringBuilder work(StringBuilder a, StringBuilder b) {
