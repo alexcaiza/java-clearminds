@@ -1,0 +1,11 @@
+- Constructores
+- Apuntadores
+- Asignadores pre asignacion, post asignacion
+- Operedor ternario0
+- Arreglos
+- Interfaces
+- Herencia
+- Clases abstractas
+- Casting
+- Modificadores
+- Estaticos
