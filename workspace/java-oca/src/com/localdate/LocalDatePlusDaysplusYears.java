@@ -1,4 +1,4 @@
-package com.javaapis;
+package com.localdate;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -9,6 +9,7 @@ public class LocalDatePlusDaysplusYears {
         // TODO Auto-generated method stub
         
         LocalDate date = LocalDate.of(2018, Month.APRIL, 30);
+        LocalDate date2 = LocalDate.of(2018, 4, 30);
         
         System.out.println(date.getYear()+ " " + date.getMonth() + " " +  date.getDayOfMonth());
         
@@ -16,6 +17,8 @@ public class LocalDatePlusDaysplusYears {
         date.plusYears(3);
         
         System.out.println(date.getYear()+ " " + date.getMonth() + " " +  date.getDayOfMonth());
+        
+        System.out.println(date2.getYear()+ " " + date2.getMonthValue() + " " +  date2.getDayOfMonth());
 
     }
 

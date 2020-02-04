@@ -1,14 +1,14 @@
-package com.javaapis;
+package com.lambdas;
 
 interface Climb {
 	boolean isTooHigh(int height, int limit);
 }
 
-public class Lambda2 {
+public class Climber {
 	
 	public static void main(String[] args) {
         
-    	//check((h, l) -> h.append(l).isEmpty(), 5);
+    	check((h, l) -> h.append(l).isEmpty(), 5);
 		
 		// Da error en h.append(l)
     	

@@ -1,4 +1,4 @@
-package com.javaapis;
+package com.herencia;
 
 public class HerenciaSnakeHandler {
     

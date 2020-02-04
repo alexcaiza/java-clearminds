@@ -1,4 +1,4 @@
-package com.javaapis;
+package com.lambdas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,25 +16,23 @@ public class LambdaRemoveIf {
     	numbers.add(250);
     	numbers.add(53);
     	
+    	System.out.println("Antes de removeIf");
+    	for (Integer i : numbers) {
+            System.out.println(i);
+        }
+    	
     	numbers.removeIf(n -> (n%2==0));
     	
+    	System.out.println("Despues de removeIf");
         for (Integer i : numbers) {
         	System.out.println(i);
         }
         
+        System.out.println("");
+        
         for (int i : numbers) {
         	System.out.println(i);
         }
-        
-        List<String> list = new ArrayList<String>();
-        
-        //list.removeIf(s -> {s.isEmpty();});
-        
-        list.removeIf((String s) -> s.isEmpty());
-        
-        list.removeIf(s -> s.isEmpty());
-        
-
     }
 
 }

@@ -24,14 +24,10 @@ class Pelican extends Bird {
 
 class TestBird {
 	
-	void fly() {
-		System.out.println("Bird is flying");		
-	}
-	
 	public static void main(String[] args) {
 		
 		Bird bird  = new Pelican();
-		//bird.fly();
+		bird.fly();
 		
 		//Pelican pelican  = new Pelican();
 		//pelican.fly();

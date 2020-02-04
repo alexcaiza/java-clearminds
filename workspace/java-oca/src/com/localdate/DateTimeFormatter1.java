@@ -12,6 +12,12 @@ public class DateTimeFormatter1 {
 				.format(DateTimeFormatter.ISO_DATE);
 		
 		System.out.println(date);
+		
+		String date2 = LocalDate
+            .parse("2018-04-30")
+            .format(DateTimeFormatter.ISO_DATE);
+    
+    System.out.println(date);
 
 	}
 
