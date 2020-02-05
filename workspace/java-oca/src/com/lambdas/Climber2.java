@@ -1,5 +1,7 @@
 package com.lambdas;
 
+import com.lambdas.functionalinterface.Climb;
+
 interface Climb {
 	boolean isTooHigh(int height, int limit);
 }

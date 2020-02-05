@@ -2,10 +2,19 @@ package com.statics;
 
 class Order {
     static String result = "";
-    { result += "c"; }
+    {
+        System.out.println("bloque 1 {}");
+        result += "c"; 
+    }
     static 
-    { result += "u"; }
-    { result += "r"; }    
+    { 
+        System.out.println("bloque 2 {} static");
+        result += "u"; 
+    }
+    { 
+        System.out.println("bloque 3 {}");
+        result += "r"; 
+    }    
 }
 
 

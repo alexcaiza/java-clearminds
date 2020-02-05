@@ -11,8 +11,7 @@ public class CollectionsBinarySearch {
      */
     public static void main(String[] args) {
         
-    	//int[] randon = {-4, -3, 0, 12, 100, 200, 300, 400, 500, 600, 700, 800}; 
-    	List<String> hex = Arrays.asList("30","8", "3A", "FF", "GG", "HH");
+    	List<String> hex = Arrays.asList("30","8", "3A", "FF");
     	
     	Collections.sort(hex);
     	
@@ -33,16 +32,6 @@ public class CollectionsBinarySearch {
     	
     	System.out.println(x + " " + y + " " + z);
     	
-    	char c = '0';
-    	
-    	System.out.println("");
-    	for (int i=0; i< 100; i++) {
-    		System.out.println(c++);
-    	}
-    	
-    	
-
-
     }
 
 }

@@ -12,10 +12,10 @@ public class LocalDateTimePeriodMinus {
         LocalDateTime d = LocalDateTime.of(2015, 5, 10, 11, 22, 33);
 
         DateTimeFormatter f1 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
-        
-        Period p = Period.of(1, 2, 3);
 
         System.out.println(d.format(f1));
+        
+        Period p = Period.of(1, 2, 3); // anio, mes, dia
 
         d = d.minus(p);
         
