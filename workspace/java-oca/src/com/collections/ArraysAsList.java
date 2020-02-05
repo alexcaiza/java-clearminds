@@ -1,4 +1,4 @@
-package com.arrays;
+package com.collections;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -18,6 +18,8 @@ public class ArraysAsList {
         Integer array[] = list.toArray(new Integer[0]);
         
         System.out.println(array[0]);
+        
+        System.out.println("list: " + list);
 
     }
 
