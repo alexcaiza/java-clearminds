@@ -1,4 +1,4 @@
-package com.cert;
+package com.strings.stringbuilders;
 
 public class StringBuilder_StringEquals {
 	

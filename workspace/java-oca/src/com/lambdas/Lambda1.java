@@ -1,4 +1,4 @@
-package com.cert;
+package com.lambdas;
 
 interface Secret {
 	String magic(double d);

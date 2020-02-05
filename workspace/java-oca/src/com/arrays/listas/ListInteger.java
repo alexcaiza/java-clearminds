@@ -1,4 +1,4 @@
-package com.cert;
+package com.arrays.listas;
 
 import java.util.ArrayList;
 import java.util.List;

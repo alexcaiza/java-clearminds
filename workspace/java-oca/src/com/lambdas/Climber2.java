@@ -4,7 +4,7 @@ interface Climb {
 	boolean isTooHigh(int height, int limit);
 }
 
-public class Climber {
+public class Climber2 {
 	
 	public static void main(String[] args) {
         

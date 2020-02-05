@@ -1,7 +1,7 @@
-package com.cert;
+package com.arrays;
 
 
-public class ArrregloListSize {
+public class ArrregloLength {
 
     public static void main(String[] args) {
         

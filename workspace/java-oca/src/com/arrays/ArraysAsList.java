@@ -1,4 +1,4 @@
-package com.cert;
+package com.arrays;
 
 import java.util.Arrays;
 import java.util.Collections;

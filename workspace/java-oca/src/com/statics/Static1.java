@@ -1,4 +1,4 @@
-package com.cert;
+package com.statics;
 
 class Order3 {
     final String value1 = "1";

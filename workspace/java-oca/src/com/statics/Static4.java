@@ -1,4 +1,4 @@
-package com.cert;
+package com.statics;
 
 public class Static4 {
 	
