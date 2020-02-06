@@ -24,14 +24,15 @@ class Pelican extends Bird {
 
 class TestBird {
 	
-	void fly() {
-		System.out.println("Bird is flying");		
-	}
-	
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
 		//Bird bird  = new Pelican();
 		//bird.fly();
+=======
+		Bird bird  = new Pelican();
+		bird.fly();
+>>>>>>> branch 'master' of git@github.com:alexcaiza/java-clearminds.git
 		
 		//Pelican pelican  = new Pelican();
 		//pelican.fly();
