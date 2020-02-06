@@ -2,13 +2,11 @@ package com.strings;
 
 public class StringLength {
     
-    private static final String TEMPLATE = "{a1: \"%s\", a2: \"%s\"}";
-    
     public static void main(String[] args) {
         
-        String a1 = "Alex";
+        String a1 = "Programacion";
         
-        System.out.println(String.format(TEMPLATE, a1, a1.length()));
+        System.out.println(a1 + " length: " + a1.length());
     }
 
 }

@@ -1,6 +1,6 @@
 package com.stringbuilders;
 
-public class StringBuilders {
+public class StringBuildersTrim {
     
     /**
     Se debe utilizar si se realiza muchas operaciones de cadenas
@@ -17,27 +17,17 @@ public class StringBuilders {
     
     Solo String y Wrappers deja realizar asignacion directa
     
+    StringBuilder tiene sobrescrito el metodo toString()
+    
     */
 	
-	public static StringBuilder work(StringBuilder a, StringBuilder b) {
-		a = new StringBuilder("a");
-		b.append("b");
-		return a;
-	}
-
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
     	
-    	StringBuilder s1 =  new StringBuilder("s1");
-    	StringBuilder s2 =  new StringBuilder("s2");
+    	StringBuilder sb =  new StringBuilder(" Programacion ");
     	
-    	StringBuilder s3 =  work(s1, s2);
+    	sb.toString()
     	
-    	System.out.println("s1: " + s1);
-    	System.out.println("s2: " + s2);
-    	System.out.println("s3: " + s3);
+    	System.out.println(sb);
 
     }
 

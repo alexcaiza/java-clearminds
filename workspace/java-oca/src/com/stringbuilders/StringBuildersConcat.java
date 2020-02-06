@@ -1,6 +1,6 @@
 package com.stringbuilders;
 
-public class StringBuilders {
+public class StringBuildersConcat {
     
     /**
     Se debe utilizar si se realiza muchas operaciones de cadenas
@@ -30,14 +30,9 @@ public class StringBuilders {
      */
     public static void main(String[] args) {
     	
-    	StringBuilder s1 =  new StringBuilder("s1");
-    	StringBuilder s2 =  new StringBuilder("s2");
+    	StringBuilder sb =  new StringBuilder("s1");
     	
-    	StringBuilder s3 =  work(s1, s2);
-    	
-    	System.out.println("s1: " + s1);
-    	System.out.println("s2: " + s2);
-    	System.out.println("s3: " + s3);
+    	sb.app
 
     }
 
