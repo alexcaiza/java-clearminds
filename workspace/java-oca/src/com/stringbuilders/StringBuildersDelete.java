@@ -29,10 +29,20 @@ public class StringBuildersDelete {
     	
     	sb.append("0123456").append("7890");
     	
+    	
+    	try {
+            sb.delete(sb.length(), 100);      
+            System.out.println("sb.delete(sb.length("+sb.length()+"), 100): " + sb);
+        } catch (Exception e) {
+            System.out.println("sb.delete(sb.length(), 100): " + sb);
+            e.printStackTrace();
+        }
+    	
     	try {
             sb.delete(3, 1);      
             System.out.println("sb.delete(3, 1): " + sb);
         } catch (Exception e) {
+            System.out.println("sb.delete(3, 1): " + sb);
             e.printStackTrace();
         }
     
@@ -41,6 +51,15 @@ public class StringBuildersDelete {
             sb.delete(3, 3);      
             System.out.println("sb.delete(3, 3): " + sb);
         } catch (Exception e) {
+            System.err.println("sb.delete(3, 3): " + sb);
+            e.printStackTrace();
+        }
+        
+        try {
+            sb.delete(100, 101);      
+            System.out.println("sb.delete(100, 101): " + sb);
+        } catch (Exception e) {
+            System.err.println("sb.delete(100, 101): " + sb);
             e.printStackTrace();
         }
            
