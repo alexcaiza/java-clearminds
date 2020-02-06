@@ -1,4 +1,4 @@
-package com.strings.stringbuilders;
+package com.stringbuilders;
 
 public class StringBuilders3 {
 	
