@@ -11,8 +11,8 @@ public abstract class Bird {
 		Bird bird  = new Pelican();
 		bird.fly();
 		
-		//Pelican pelican  = new Pelican();
-		//pelican.fly();
+		Pelican pelican  = new Pelican();
+		pelican.fly();
 	}
 }
 
@@ -30,7 +30,7 @@ class TestBird {
 	
 	public static void main(String[] args) {
 		
-		Bird bird  = new Pelican();
+		//Bird bird  = new Pelican();
 		//bird.fly();
 		
 		//Pelican pelican  = new Pelican();

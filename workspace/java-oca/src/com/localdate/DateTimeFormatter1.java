@@ -12,6 +12,12 @@ public class DateTimeFormatter1 {
 				.format(DateTimeFormatter.ISO_DATE);
 		
 		System.out.println(date);
+		
+		LocalDate d1 = LocalDate.parse("2020-01-01", DateTimeFormatter.ISO_DATE);
+		
+		String str1 = d1.format(DateTimeFormatter.ISO_DATE);
+		
+		System.out.println(str1);
 
 	}
 
