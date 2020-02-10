@@ -19,13 +19,17 @@ public class StringReplace {
         //equals(): Compara el contenido de dos cadenas, no toma en cuenta mayusculas y minusculas
         
         
-        String str = new String("el zorro zorro rápido saltó");
+        String str = new String("el zorro zorro rapido salto zorro ");
         
         System.out.println("Original String is ':" + str);
         
-        System.out.println("Cadena después de reemplazar 'zorro' por 'perro':" + str.replace("zorro", "perro"));
+        String nueva = str.replace("zorro", "perro");
         
-        System.out.println("Cadena después de reemplazar todo 't' por 'a':" + str.replace('t', 'a'));
+        System.out.println("Cadena después de reemplazar 'zorro' por 'perro':" + nueva);
+        
+        nueva = str.replace('z', 'p');
+        
+        System.out.println("Cadena después de reemplazar todo 't' por 'a':" + nueva);
         
     }
 

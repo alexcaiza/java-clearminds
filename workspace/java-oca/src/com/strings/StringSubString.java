@@ -17,54 +17,72 @@ public class StringSubString {
         */
         
         //equals(): Compara el contenido de dos cadenas, no toma en cuenta mayusculas y minusculas
+    	
+    	int ini=0;
+    	int fin=0;
         
+    	String nueva;
+    	
+        String cadena = new String("0123456789");
         
-        String str = new String("01234567890");
-        
-        System.out.println("Original String is ':" + str);
-        
-        System.out.println("Cadena después substring(3):" + str.substring(3));
-        
-        System.out.println("Cadena después substring(3, 9):" + str.substring(3, 9));
+        System.out.println("Original String is ':" + cadena + " length():" + cadena.length());
         
         try {
-            System.out.println("Cadena después substring(3, "+(str.length()-1)+"):" + str.substring(3, (str.length()-1)));
+        	ini=10;
+        	nueva = cadena.substring(ini);
+        	System.out.println("Cadena después substring("+ini+"):" + nueva);
+		} catch (Exception e) {
+			System.err.println("ERROR: Cadena después substring("+ini+"):" + cadena);
+			e.printStackTrace();
+		}
+        
+        try {
+        	ini=10;
+        	fin=11;
+        	System.out.println("Cadena después substring("+ini+", "+fin+"):" + cadena.substring(ini, fin));
+        } catch (Exception e) {
+			System.err.println("ERROR: Cadena después substring("+ini+", "+fin+"):" + cadena);
+			e.printStackTrace();
+		}
+        	
+        try {
+            System.out.println("Cadena después substring(3, "+(cadena.length())+"):" + cadena.substring(3, (cadena.length())));
         } catch (Exception e) {
             e.printStackTrace();
         }
         
         try {
-            System.out.println("Cadena después substring(3, 9):" + str.substring(3, 12));
+            System.out.println("Cadena después substring(3, 12):" + cadena.substring(3, 12));
         } catch (Exception e) {
             e.printStackTrace();
         }
         
         try {
-            System.out.println("Cadena después substring(3, "+str.length()+"):" + str.substring(3, str.length()));
+            System.out.println("Cadena después substring(3, "+cadena.length()+"):" + cadena.substring(3, cadena.length()));
         } catch (Exception e) {
             e.printStackTrace();
         }
         
         try {
-            System.out.println("Cadena después substring(3, 100):" + str.substring(3, 100));
+            System.out.println("Cadena después substring(3, 100):" + cadena.substring(3, 100));
         } catch (Exception e) {
             e.printStackTrace();
         }
         
         try {
-            System.out.println("Cadena después substring(100, 5):" + str.substring(100));
+            System.out.println("Cadena después substring(100, 5):" + cadena.substring(100));
         } catch (Exception e) {
             e.printStackTrace();
         }
         
         try {
-            System.out.println("Cadena después substring(10, 5):" + str.substring(10, 7));
+            System.out.println("Cadena después substring(10, 5):" + cadena.substring(10, 7));
         } catch (Exception e) {
             e.printStackTrace();
         }
         
         try {
-            System.out.println("Cadena después substring(-1):" + str.substring(-1));
+            System.out.println("Cadena después substring(-1):" + cadena.substring(-1));
         } catch (Exception e) {
             e.printStackTrace();
         }

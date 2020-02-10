@@ -6,7 +6,7 @@ public class StringConcat {
         
         /**
         Los metodos de la clase String son inmutable, 
-        Los metodos de la clase String no modifican de valor de la cadena original despues de realizar alguna operacion de algun cambio realizado
+        Los metodos de la clase String no modifican el valor de la cadena original despues de realizar alguna operacion de algun cambio realizado
         Los metodos de la clase String devuelven una nueva cadena
         Ningun metodo de la clase String modifica la cadena original
         
