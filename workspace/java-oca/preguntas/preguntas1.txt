@@ -1,0 +1,137 @@
+-----------------------------------------------------------------------------
+01. Which two statements are true?
+a)An abstract class can implement an interface.
+b)An abstract class can be extended by an interface.
+c)An interface CANNOT be extended by another interface.
+d)An interface can be extended by an abstract class.
+e)An abstract class can be extended by a concrete class.
+f)An abstract class CANNOT be extended by an abstract class.
+
+¿Qué dos afirmaciones son ciertas?
+a) Una clase abstracta puede implementar una interfaz.
+b) Una clase abstracta puede ser extendida por una interfaz.
+c) Una interfaz NO PUEDE ser extendida por otra interfaz.
+d) Una interfaz puede ser extendida por una clase abstracta.
+e) Una clase abstracta puede ser extendida por una clase concreta.
+f) Una clase abstracta NO PUEDE ser extendida por una clase abstracta.
+
+QUESTION: 01 Answer: a, e
+
+-----------------------------------------------------------------------------
+
+02. Which code fragment cause a compilation error?
+a)flat flt = 100F;
+b)float flt = (float) 1_11.00;
+c)float flt = 100;
+d)double y1 = 203.22; float flt = y1;
+e)int y2 = 100; floatflt = (float) y2;
+
+Answer: d
+
+-----------------------------------------------------------------------------
+03. Which three are advantages of the Java exception mechanism?
+
+a)Improves the program structure because the error handling code is separated from the normal program function
+b)Provides a set of standard exceptions that covers all the possible errors
+c)Improves the program structure because the programmer can choose where to handle exceptions
+d)Improves the program structure because exceptions must be handled in the method in which they occurred
+e)allows the creation of new exceptions that are tailored to the particular program being
+
+¿Cuáles son las tres ventajas del mecanismo de excepción de Java?
+a) Mejora la estructura del programa porque el código de manejo de errores está separado de la función normal del programa
+b) Proporciona un conjunto de excepciones estándar que cubre todos los posibles errores.
+c) Mejora la estructura del programa porque el programador puede elegir dónde manejar las excepciones
+d) Mejora la estructura del programa porque las excepciones deben manejarse en el método en el que ocurrieron
+e) permite la creación de nuevas excepciones que se adaptan al programa particular que se está
+
+Answer: a, c, e
+
+----------------------------------------------------------------------------
+04. Given the code fragment:
+1. ArrayList<Integer> list = new ArrayList<>(1);
+2. list.add(1001);
+3. list.add(1002);
+4. System.out.println(list.get(list.size()));
+
+What is the result?
+a)Compilation fails due to an error on line 1.
+b)An exception is thrown at run time due to error on line 3
+c)An exception is thrown at run time due to error on line 4
+d)1002
+
+Answer: c
+
+------------------------------------------------------------------------------
+05. Which three are bad practices?
+a)Checking for ArrayIndexoutofBoundsException when iterating through an array to determine when all elements have been visited
+b)Checking for Error and. If necessary, restarting the program to ensure that users are unaware problems
+c)Checking for FileNotFoundException to inform a user that a filename entered is not valid
+d)Checking for ArrayIndexoutofBoundsException and ensuring that the program can recover if oneoccur
+e)Checking for an IOException and ensuring that the program can recover if one occurs
+
+a) Verificación de ArrayIndexoutofBoundsException al iterar a través de un array para determinar cuándo se han visitado todos los elementos
+b) Comprobación de error y. Si es necesario, reinicie el programa para asegurarse de que los usuarios no tengan problemas.
+c) Verificar FileNotFoundException para informar a un usuario que un nombre de archivo ingresado no es válido
+d) Verificar ArrayIndexoutofBoundsException y asegurar que el programa pueda recuperarse si ocurre
+e) Verificar una IOException y asegurarse de que el programa pueda recuperarse si ocurre
+
+Answer: a, b, c
+-------------------------------------------------------------------------------
+06. Consider Integer number = Integer.valueOff 808.1");
+
+Which is true about the above statement?
+
+a)The value of the variable number will be 808.1
+b)The value of the variable number will be 808
+c)The value of the variable number will be 0.
+d)A NumberFormatException will bethrow.
+e)It will not compile.
+
+Answer: e
+
+-------------------------------------------------------------------------------
+07. An unchecked exception occurs in a methoddosomething() Should other code be added in thedosomething() method for it to compile and execute?
+
+a)The Exception must be caught
+b)The Exception must be declared to be thrown.
+c)The Exception must be caught or declared to be thrown.
+d)No other code needs to be added.
+
+Answer: d
+
+-------------------------------------------------------------------------------
+
+08. Given the for loop construct:for ( expr1 ; expr2 ; expr3 ) { statement; }
+
+Which two statements are true?
+a)This is not the only valid for loop construct; there exits another form of for loop constructor.
+b)The expression expr1 is optional. it initializes the loop and is evaluated once, as the loop begin.
+c)When expr2 evaluates to false, the loop terminates. It is evaluated only after each iteration through the loop.
+d)The expression expr3 must be present. It is evaluated after each iteration through the loop.
+
+Answer: a, b
+
+-------------------------------------------------------------------------------
+
+09. Which of the following will print current time?
+
+a)System.out.print(new LocalTime()-now0);
+b)System.out.print(new LocalTime());
+c)System.ouLprint(LocalTime.now());
+d)System.ouLprint(LocalTime.today());
+e)None of the above.
+
+Answer: c
+
+--------------------------------------------------------------------------------
+
+10. Which two are valid declarations of a two-dimensional array?
+
+a)int [] [] array2D;
+b)int [2] [2] array2D;
+c)int array2D [];
+d)int [] array2D [];
+e)int [] [] array2D [];
+
+Answer: a, d
+
