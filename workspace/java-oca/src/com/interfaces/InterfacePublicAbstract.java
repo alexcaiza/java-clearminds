@@ -11,10 +11,15 @@ public interface InterfacePublicAbstract {
 	public int calcularNumero();
 	public abstract int calcularNumero(int a);
 	
+	public  int calcularNumero2(int a);
+	
 	public static int metodo1() {
-		
 		return 0;
 	}
+	
+	default int metodo2() {
+        return 0;
+    }
 }
 
 class C1{
