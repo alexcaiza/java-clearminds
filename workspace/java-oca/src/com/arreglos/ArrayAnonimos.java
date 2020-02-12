@@ -1,3 +1,4 @@
+// Documentacion
 package com.arreglos;
 
 public class ArrayAnonimos {
