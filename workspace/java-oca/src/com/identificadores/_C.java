@@ -4,7 +4,13 @@ public class _C {
 	
 	private static int $;
 	
+	private static int A$B;
+	
+	//private static int 1980_; no compila
+	
 	private static String s;
+	
+	private static String _helloWorld;
 
 	public static void main(String[] main) {
 		

@@ -1,4 +1,4 @@
-package com.loops;
+package com.strings;
 
 public class SwitchChar1 {
 
