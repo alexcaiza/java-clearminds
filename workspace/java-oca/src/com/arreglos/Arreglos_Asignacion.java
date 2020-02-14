@@ -13,6 +13,8 @@ public class Arreglos_Asignacion {
         multiDimArr = new int[5][]; //valid
         mutliDimArr = new int[][5]; //compilation fails
         multiDimArr = new int[7]; //invalid
+        
+        arrayInt = new int[] {};
     }
 
 }
