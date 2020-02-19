@@ -4,6 +4,7 @@ public class TiposFinalSwitch {
 	
 	public static void main(String[] args) {
 	
+		//final 
 		final int j;// = 2;
 		
 		int a = 0;
