@@ -21,25 +21,58 @@ el tipo de devolución es doble, se muestra como decimal.
 public class Metodos1 {
     
     //public void mt(long r)
-    
-    void mt(int s) {        
+    /*
+    void mt(int s) {
+    	System.out.println("int");
     }
-    
-    int mt(int s) {        
+    */
+    /*
+    int mt(Integer s) {   
+    	System.out.println("Integer");
         return 0;
     }
-    
+    */
+	/*
     int mt(long s) {
+    	System.out.println("long");
         return 0;
     }
-    
+    */
+	/*
+	public int mt(float s) {
+    	System.out.println("float");
+        return 0;
+    }
+    */
     public int mt(Long s) {
+    	System.out.println("Long");
+        return 0;
+    }
+    /*
+    public int mt(Number s) {
+    	System.out.println("Number");
+        return 0;
+    }
+    */
+    /*
+    public int mt(Object s) {
+    	System.out.println("Object");
+        return 0;
+    }
+    */
+    public int mt(Object... s) {
+    	System.out.println("Object[]");
         return 0;
     }
     
     int mt() {
         return 0;
     }
+    
+    public static void main(String[] args) {
+    	Metodos1 m1 = new Metodos1();
+    	m1.mt(new Integer(10));
+	}
     
     
 }
