@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"db2_iseries-1705e6e6f07-13ef65b4a50620e9": {
+			"provider": "db2_i",
+			"driver": "db2_iseries",
+			"name": "smxsic - preproduccion",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "BDDPREPROD",
+				"database": "smxsic",
+				"url": "jdbc:as400://BDDPREPROD;libraries=smxsic;",
+				"type": "test",
+				"properties": {
+					"translate binary": "true",
+					"metadata source": "0"
+				},
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"test": {
+			"name": "Test",
+			"color": "196,255,181",
+			"description": "Test (QA) database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": true
+		}
+	}
+}

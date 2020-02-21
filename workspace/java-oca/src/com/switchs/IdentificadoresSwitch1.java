@@ -1,10 +1,9 @@
 package com.switchs;
 
-public class TiposFinalSwitch {
+public class IdentificadoresSwitch1 {
 	
 	public static void main(String[] args) {
 	
-		//final 
 		final int j;// = 2;
 		
 		int a = 0;
