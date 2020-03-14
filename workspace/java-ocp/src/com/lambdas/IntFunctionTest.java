@@ -1,16 +1,15 @@
 package com.lambdas;
 
 import java.util.function.Function;
+import java.util.function.IntFunction;
 
-public class FunctionOperatorTest {
+public class IntFunctionTest {
 
 	public static void main(String[] args) {
 		
-		//Function square = x -> x*x; //NO SE PUEDE
+		IntFunction<Integer> square3 = x -> x*x;
 		
-		Function<Integer, Double> f1 = x -> (double) x * x;
-		
-		Double res = f1.apply(3);
+		Integer res = square3.apply(3);
 		
 		System.out.println("res:" + res);
 	}
