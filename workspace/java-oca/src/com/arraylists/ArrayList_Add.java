@@ -1,8 +1,8 @@
-package com.collections;
+package com.arraylists;
 
 import java.util.ArrayList;
 
-public class ArrayList_Get {
+public class ArrayList_Add {
 
     /**
      * @param args

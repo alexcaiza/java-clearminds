@@ -4,13 +4,12 @@ public class StringBuilder_Replace {
 	
 	public static void main(String[] args) {
 		
-		StringBuilder sb = new StringBuilder("Programacion");
+		StringBuilder sb = new StringBuilder("0123456789");
 		
-		int posIni = 0;
-		int posFin = 3;
+		int posIni = 1;
+		int posFin = 100;
 		
-		String sub = "CIONES";
-		
+		String sub = "java";
 		
 		try {			
 			sb.replace(posIni, posFin, sub);

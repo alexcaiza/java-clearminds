@@ -6,13 +6,20 @@ public class StringBuilder_Insert {
 		
 		StringBuilder sb = new StringBuilder("Programacion");
 		
-		int posIni = 0;
-		
-		
+		int posIni = sb.length();
 		
 		try {			
 			sb.insert(posIni, " Java");
 			
+			System.out.println("sb: " + sb);
+			
+			posIni = sb.length();
+			sb.insert(posIni, " 8");
+			
+			System.out.println("sb: " + sb);
+			
+			posIni = sb.length();
+			sb.insert(posIni, 9);
 			System.out.println("sb: " + sb);
 			
 		} catch (Exception e) {
