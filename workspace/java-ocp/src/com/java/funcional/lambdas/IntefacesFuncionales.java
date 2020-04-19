@@ -1,4 +1,4 @@
-package com.lambdas;
+package com.java.funcional.lambdas;
 
 public class IntefacesFuncionales {
 

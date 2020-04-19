@@ -1,4 +1,4 @@
-package com.lambdas;
+package com.java.funcional.lambdas;
 
 import java.util.function.UnaryOperator;
 
