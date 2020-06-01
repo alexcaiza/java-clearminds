@@ -33,6 +33,10 @@ public class StreamFindAnyTest {
 				//.get()
 				.orElse(userDefault)
 				;
+		
+		// El metodo get devuelve una excepcion si no ecuentra el elemento
+		// java.util.NoSuchElementException
+		
 		if (user != null) {
 			System.out.println("contador declarativo: " + user.getUsername());
 		}

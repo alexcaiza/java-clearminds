@@ -11,14 +11,14 @@ public class StreamAnyMatchTest {
 		 * La calificacion minima aprobatoria es 6
 		 * */
 		//Problematica: 
-		List<Integer> calificaciones = Arrays.asList(10,10,9,6,6,6,7,8,9,10);
+		List<Integer> calificaciones = Arrays.asList(10,10,9,5,6,6,7,8,9,10);
 		boolean band1 = calificaciones.stream()
 			.filter(x->x<6)
 			.count() > 0;
-		System.out.println(band1);
+		System.out.println("existe with > filter > count: " + band1);
 		
-		boolean band2 = calificaciones.stream().anyMatch(x->x<5);
-		System.out.println(band2);
+		boolean band2 = calificaciones.stream().anyMatch(x->x<6);
+		System.out.println("existe with > anyMatch: " + band2);
 			
 	}
 }
